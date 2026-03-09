@@ -4,6 +4,24 @@
 ![license](https://img.shields.io/npm/l/chatgpt-prompt-engineering)
 ![build](https://img.shields.io/github/actions/workflow/status/turkcoode/chatgpt-prompt-engineering/ci.yml)
 
+## Table of Contents
+
+- [Giri](#giri)
+- [Neden Bu Ara](#neden-bu-ara)
+- [zellikler](#zellikler)
+- [Kurulum](#kurulum)
+- [Hzl Balang](#hzl-balang)
+- [API Referans](#api-referans)
+- [CLI Kullanm](#cli-kullanm)
+- [Konfigrasyon](#konfigrasyon)
+- [Mimari ve Tasarm Kararlar](#mimari-ve-tasarm-kararlar)
+- [Performans ve Optimizasyon](#performans-ve-optimizasyon)
+- [Gerek Dnya Kullanm Senaryolar](#gerek-dnya-kullanm-senaryolar)
+- [SSS ve Sorun Giderme](#sss-ve-sorun-giderme)
+- [Katkda Bulunma](#katkda-bulunma)
+- [Dokmantasyon](#dokmantasyon)
+- [Lisans](#lisans)
+
 ## Giriş
 
 Günümüzde yapay zeka uygulamaları, özellikle de dil modelleri, birçok sektörde devrim yaratma potansiyeline sahiptir. Ancak, bu modellerin etkili bir şekilde kullanılabilmesi için doğru "prompt" yani talimatları sağlamak kritik bir önem taşır. 10.000 kullanıcıya sahip bir SaaS projesinde, kullanıcıların doğru sonuçlar alabilmesi için sadece doğru verilerin sağlanması yeterli değildir; aynı zamanda bu verilerin nasıl sunulduğu da büyük bir rol oynamaktadır. Yanlış ya da yetersiz prompt'lar, kullanıcıların beklentilerini karşılamayabilir ve bu da müşteri kaybına yol açabilir. İşte bu noktada "ChatGPT Prompt Engineering Toolkit" devreye giriyor.
