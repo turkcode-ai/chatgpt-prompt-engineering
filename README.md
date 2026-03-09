@@ -375,3 +375,12 @@ ChatGPT Prompt Engineering Toolkit, TurkCode tarafından geliştirilmiştir. Dah
 ## Changelog
 
 All notable changes to this project are documented in [Releases](../../releases). This project follows [Semantic Versioning](https://semver.org/).
+
+## Roadmap
+
+- [ ] TypeScript support
+- [ ] Plugin architecture
+- [ ] Extended configuration options
+- [ ] Interactive mode
+
+See the [open issues](../../issues) for a full list of proposed features and known issues.
