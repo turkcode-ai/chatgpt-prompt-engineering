@@ -356,6 +356,15 @@ Bu projeye katkıda bulunmak isterseniz, lütfen GitHub üzerindeki [repo](https
 - [SSS](docs/SSS.md)
 - [Örnekler](docs/Örnekler.md)
 
+## See Also
+
+- [**Astra UI**](https://github.com/turkcode-ai/astra-ui) - Minimalist, SEO-friendly and ultra-fast React component library built for modern web applications
+
+---
+
+Built by [TurkCode AI](https://turkcode.net) | [All Projects](https://github.com/turkcode-ai)
+
+
 ## Lisans
 
 MIT Lisansı altında lisanslanmıştır.
