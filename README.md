@@ -362,3 +362,7 @@ MIT Lisansı altında lisanslanmıştır.
 
 ChatGPT Prompt Engineering Toolkit, TurkCode tarafından geliştirilmiştir. Daha fazla bilgi için [TurkCode](https://turkcode.net) sayfasını ziyaret edebilirsiniz. Ayrıca, [TurkCode Blog](https://turkcode.net/blog) üzerinden güncel haberleri takip edebilirsiniz. Diğer araçlar hakkında bilgi almak için [Daha fazla araç](https://turkcode.net) sayfasını ziyaret edebilirsiniz.
 ```
+
+## Changelog
+
+All notable changes to this project are documented in [Releases](../../releases). This project follows [Semantic Versioning](https://semver.org/).
