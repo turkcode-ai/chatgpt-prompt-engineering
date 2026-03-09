@@ -1,6 +1,6 @@
 {
   "name": "chatgpt-prompt-engineering",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Advanced prompt engineering framework with templates, chain-of-thought patterns, and automated prompt optimization for ChatGPT and GPT-4",
   "main": "index.js",
   "bin": {
