@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Prompt Engineering Toolkit - Advanced prompt engineering framework with templates, chain-of-thought patterns, and automated prompt optimization for ChatGPT and GPT-4</title>
+    <meta name="description" content="Advanced prompt engineering framework with templates, chain-of-thought patterns, and automated prompt optimization for ChatGPT and GPT-4. Open source Node.js tool by TurkCode AI.">
+    <meta name="keywords" content="chatgpt, prompt-engineering, gpt-4, openai, ai, llm, prompt-templates, nodejs">
+    <meta name="author" content="TurkCode AI">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="ChatGPT Prompt Engineering Toolkit">
+    <meta property="og:description" content="Advanced prompt engineering framework with templates, chain-of-thought patterns, and automated prompt optimization for ChatGPT and GPT-4">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://turkcode-ai.github.io/chatgpt-prompt-engineering">
+    <meta property="og:site_name" content="TurkCode AI">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="ChatGPT Prompt Engineering Toolkit">
+    <meta name="twitter:description" content="Advanced prompt engineering framework with templates, chain-of-thought patterns, and automated prompt optimization for ChatGPT and GPT-4">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://turkcode-ai.github.io/chatgpt-prompt-engineering">
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "ChatGPT Prompt Engineering Toolkit",
+        "description": "Advanced prompt engineering framework with templates, chain-of-thought patterns, and automated prompt optimization for ChatGPT and GPT-4",
+        "url": "https://turkcode-ai.github.io/chatgpt-prompt-engineering",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Cross-platform",
+        "programmingLanguage": "JavaScript",
+        "author": {
+            "@type": "Organization",
+            "name": "TurkCode AI",
+            "url": "https://turkcode.net"
+        },
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "codeRepository": "https://github.com/turkcode-ai/chatgpt-prompt-engineering",
+        "license": "https://opensource.org/licenses/MIT"
+    }
+    </script>
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #24292e;
+            background: #f6f8fa;
+        }
+        .container { max-width: 800px; margin: 0 auto; padding: 2rem 1rem; }
+        header {
+            background: linear-gradient(135deg, #0366d6, #2ea44f);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+        header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+        header p { font-size: 1.2rem; opacity: 0.9; max-width: 600px; margin: 0 auto; }
+        .badges { margin-top: 1rem; }
+        .badges img { margin: 0 0.25rem; }
+        .section { background: white; border-radius: 6px; padding: 2rem; margin: 1.5rem 0; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .section h2 { color: #0366d6; margin-bottom: 1rem; border-bottom: 2px solid #f1f1f1; padding-bottom: 0.5rem; }
+        pre {
+            background: #1b1f23;
+            color: #e1e4e8;
+            padding: 1rem;
+            border-radius: 6px;
+            overflow-x: auto;
+            margin: 1rem 0;
+        }
+        code { font-family: 'SFMono-Regular', Consolas, monospace; font-size: 0.9rem; }
+        .features { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+        .feature { padding: 1rem; background: #f6f8fa; border-radius: 6px; }
+        .feature h3 { color: #2ea44f; font-size: 1rem; }
+        .btn {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 0.5rem;
+        }
+        .btn-primary { background: #2ea44f; color: white; }
+        .btn-secondary { background: #0366d6; color: white; }
+        .cta { text-align: center; padding: 2rem; }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #586069;
+            border-top: 1px solid #e1e4e8;
+            margin-top: 2rem;
+        }
+        footer a { color: #0366d6; text-decoration: none; }
+        @media (max-width: 600px) {
+            .features { grid-template-columns: 1fr; }
+            header h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ChatGPT Prompt Engineering Toolkit</h1>
+        <p>Advanced prompt engineering framework with templates, chain-of-thought patterns, and automated prompt optimization for ChatGPT and GPT-4</p>
+        <div class="badges">
+            <img src="https://img.shields.io/github/license/turkcode-ai/chatgpt-prompt-engineering" alt="License">
+            <img src="https://img.shields.io/badge/node-%3E%3D14-brightgreen.svg" alt="Node.js">
+            <img src="https://img.shields.io/github/stars/turkcode-ai/chatgpt-prompt-engineering?style=social" alt="Stars">
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>Quick Start</h2>
+            <pre><code>git clone https://github.com/turkcode-ai/chatgpt-prompt-engineering.git
+cd chatgpt-prompt-engineering
+npm install
+node index.js --help</code></pre>
+        </div>
+
+        <div class="section">
+            <h2>Features</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>Easy Setup</h3>
+                    <p>Clone and run with zero configuration required.</p>
+                </div>
+                <div class="feature">
+                    <h3>Fast & Lightweight</h3>
+                    <p>Minimal dependencies with high performance.</p>
+                </div>
+                <div class="feature">
+                    <h3>CLI & API</h3>
+                    <p>Use from the command line or as a Node.js library.</p>
+                </div>
+                <div class="feature">
+                    <h3>Well Documented</h3>
+                    <p>Comprehensive docs with real-world examples.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Usage Example</h2>
+            <pre><code>const chatgptpromptengineering = require('chatgpt-prompt-engineering');
+
+const result = chatgptpromptengineering.analyze(input);
+console.log(result);</code></pre>
+        </div>
+
+        <div class="cta">
+            <a href="https://github.com/turkcode-ai/chatgpt-prompt-engineering" class="btn btn-primary">View on GitHub</a>
+            <a href="https://turkcode.net/blog" class="btn btn-secondary">Read the Blog</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Open source project by <a href="https://turkcode.net">TurkCode AI</a></p>
+        <p style="margin-top: 0.5rem;">
+            <a href="https://github.com/turkcode-ai/chatgpt-prompt-engineering">GitHub</a> &middot;
+            <a href="https://turkcode.net/blog">Blog</a> &middot;
+            <a href="https://github.com/turkcode-ai/chatgpt-prompt-engineering/issues">Issues</a>
+        </p>
+    </footer>
+</body>
+</html>
