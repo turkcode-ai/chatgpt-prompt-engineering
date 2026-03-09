@@ -365,6 +365,11 @@ Bu projeye katkıda bulunmak isterseniz, lütfen GitHub üzerindeki [repo](https
 Built by [TurkCode AI](https://turkcode.net) | [All Projects](https://github.com/turkcode-ai)
 
 
+---
+
+Built by [TurkCode AI](https://turkcode.net) | [All Projects](https://github.com/turkcode-ai)
+
+
 ## Lisans
 
 MIT Lisansı altında lisanslanmıştır.
