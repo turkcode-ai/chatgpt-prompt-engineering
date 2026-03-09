@@ -1,0 +1,36 @@
+{
+  "name": "chatgpt-prompt-engineering",
+  "version": "1.0.0",
+  "description": "Advanced prompt engineering framework with templates, chain-of-thought patterns, and automated prompt optimization for ChatGPT and GPT-4",
+  "main": "index.js",
+  "bin": {
+    "chatgpt-prompt-engineering": "./index.js"
+  },
+  "scripts": {
+    "test": "node index.js --help",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "chatgpt",
+    "prompt-engineering",
+    "gpt-4",
+    "openai",
+    "ai",
+    "llm",
+    "prompt-templates",
+    "nodejs"
+  ],
+  "author": "TurkCode AI <https://turkcode.net>",
+  "license": "MIT",
+  "homepage": "https://turkcode.net",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/turkcode-ai/chatgpt-prompt-engineering"
+  },
+  "bugs": {
+    "url": "https://github.com/turkcode-ai/chatgpt-prompt-engineering/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
